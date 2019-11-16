@@ -380,6 +380,7 @@ GameObject:
   - component: {fileID: 1544581951}
   - component: {fileID: 1544581950}
   - component: {fileID: 1544581952}
+  - component: {fileID: 1544581953}
   m_Layer: 5
   m_Name: Potion_Red
   m_TagString: Untagged
@@ -458,6 +459,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _canvas: {fileID: 511573961}
+--- !u!225 &1544581953
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544581948}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1615417111
 GameObject:
   m_ObjectHideFlags: 0
@@ -547,6 +560,7 @@ GameObject:
   - component: {fileID: 1928104987}
   - component: {fileID: 1928104989}
   - component: {fileID: 1928104988}
+  - component: {fileID: 1928104990}
   m_Layer: 5
   m_Name: InventorySlot
   m_TagString: Untagged
@@ -612,3 +626,15 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1928104986}
   m_CullTransparentMesh: 0
+--- !u!114 &1928104990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1928104986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 625b4e4c86188384d820574c707244ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
